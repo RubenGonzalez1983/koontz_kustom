@@ -1,15 +1,10 @@
 import React from "react";
-import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.scss";
 
 export const Home = () => (
-	<div className="text-center mt-5">
-		<h1>Hello Rigo!</h1>
-		<p>
-			<img src={rigoImage} />
-		</p>
-		<a href="#" className="btn btn-success">
-			If you see this green button, bootstrap is working
-		</a>
+	<div className="body">
+		<div className="logo">
+			<img src="https://koontzguitars.com/wp-content/uploads/2021/03/koontz_logo_temp.png" />
+		</div>
 	</div>
 );
