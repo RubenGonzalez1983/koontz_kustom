@@ -4,6 +4,7 @@
   }
   
 .body::before {
+  background-color: black;
     content: "";
     position: fixed;
     left: 0;
@@ -22,22 +23,28 @@
     -o-filter: blur(5px);
     -ms-filter: blur(5px);
     filter: blur(5px);
+  
   }
 
   .nav {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
     display: flex;
     justify-content: center;
     background-color: black;
-     position: fixed; 
-    top: 0; 
     width: 100%;
-    z-index: 1; 
+    top: 0; 
+  
   }
+
+  .navcolor {
+    background-color:whitesmoke;
+  }
+
+  
 
   .navlogo{
     width:120px;
-    height: 20;
+    height: 100%;
+    margin-left: 30px;
   }
   
   .link {

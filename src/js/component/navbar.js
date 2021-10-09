@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 export const Navbar = () => {
 	const [showmenu, setShowmenu] = useState(" ");
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-light nav-fixed">
+		<nav className="navbar navbar-expand-lg nav-fixed nav">
 			<button
 				onClick={() => (showmenu == " " ? setShowmenu("show") : setShowmenu(" "))}
-				className="navbar-toggler"
+				className="navbar-toggler navcolor"
 				type="button"
 				data-toggle="collapse"
 				data-target="#navbarTogglerDemo03"
@@ -16,11 +16,11 @@ export const Navbar = () => {
 				aria-label="Toggle navigation">
 				<span className="navbar-toggler-icon" />
 			</button>
-			<a className="navbar-brand" href="#">
+			<a className="navlogobg" href="#">
 				<img className="navlogo" src="https://i.ibb.co/ypTrQHH/koontzlogoflatnav.jpg" />
 			</a>
 
-			<div className={"collapse navbar-collapse " + showmenu} id="navbarTogglerDemo03">
+			<div className={"collapse navbar-collapse navcolor " + showmenu} id="navbarTogglerDemo03">
 				<ul className="navbar-nav mr-auto mt-2 mt-lg-0 navright nav">
 					<li className="navbarfont">
 						<a className="nav-link hover link" href="/src/Repairs.html">
