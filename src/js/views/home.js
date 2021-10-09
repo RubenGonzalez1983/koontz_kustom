@@ -14,9 +14,6 @@ export const Home = () => (
 						src="https://i.ibb.co/DMhB1ZR/pngarea-com-instagram-logopng-ig-6730669.png"
 					/>
 				</a>
-				<a href="https://koontzkustomguitars.bigcartel.com/">
-					<img className="iconlinks" src="https://i.ibb.co/wLShbVs/shopping-cart.png" />
-				</a>
 			</div>
 		</div>
 	</div>
