@@ -39,7 +39,7 @@ export const Repairs = () => (
 			</p>
 			<ul>Full Set-Up ---- $80</ul>
 			<ul>Set-Up with fret level ---- $160</ul>
-			<br /> <br /> <br />
+			<br /> <br />
 			<h1>Crack and Structural Repairs</h1> <br />
 			<ul>
 				<li>a. Seal crack up to 3” ---- $50-$100</li>
@@ -59,7 +59,6 @@ export const Repairs = () => (
 				<br />
 			</ul>{" "}
 			<br />
-			<br />
 			<h1>Nuts</h1> <br />
 			<p>
 				<i>Different types of neck repairs from Nuts to Frets. For headstock crack see Crack Repair</i>
@@ -73,8 +72,9 @@ export const Repairs = () => (
 				Made from scratch. <br /> <br />
 				<li>d. Install Synthetic Nut ---- $50</li>
 				Plus cost of nut. <br /> <br />
-				<li>E.Brass nut ---- $150</li> <br /> <br />
+				<li>E.Brass nut ---- $150</li>{" "}
 			</ul>
+			<br /> <br />
 			<h1>Frets and Fingerboards</h1> <br />
 			<ul>
 				<li>a. Full Fret level and recrown ---- $100</li> <br />
@@ -84,8 +84,9 @@ export const Repairs = () => (
 				<li>. Re-Seat fret ---- $15 a fret</li> <br />
 				<li>f. Full Re Fret ---- $350</li>
 				Unbound Maple or Rosewood neck. <br /> <br />
-				<li>g. Re Fret Bound Neck ---- 450</li> <br />
+				<li>g. Re Fret Bound Neck ---- 450</li>{" "}
 			</ul>
+			<br />
 			<br />
 			<h2>
 				If you don&apos;t see what you need, I&apos;m pretty sure I can do it. Get in touch and we&apos;ll
