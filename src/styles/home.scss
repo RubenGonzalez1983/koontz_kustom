@@ -27,11 +27,13 @@
   }
 
   .nav {
+    position: fixed;
     display: flex;
     justify-content: center;
     background-color: black;
     width: 100%;
     top: 0; 
+    
   
   }
 
@@ -39,12 +41,10 @@
     background-color:whitesmoke;
   }
 
-  
-
   .navlogo{
     width:120px;
-    height: 100%;
-    margin-left: 30px;
+    height: 20;
+    margin-top: 6px;
   }
   
   .link {
@@ -52,20 +52,71 @@
     -webkit-text-fill-color: white;
     font-family: "Archivo Black", sans-serif;
     font-size: 22px;
+    margin-right: 10px;
   }
   
   .hover:hover {
     background-color: rgb(187, 154, 7);
   }
   
-  .logo {
-    width: 800px;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 150px;
-    padding-bottom: 180px;
+  .logodiv {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+  }
 
+  .logo{
+    width: 500px;
+    height: 100%;
+  }
+
+  .logoh1{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 35px;
+  }
+
+  .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .iconlinks{
+    width: 40px;
+    height: 100%;
+    margin-right: 6px;
+  }
+
+  .mainbody{
+    background-color:		#F0F0F0;
+  }
+
+  .repairs{
+   
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: white;
+   
+
+  }
+
+  .repairstags{
+    margin-left:25px;
+    margin-right:25px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    
+  }
+
+  .repairspic{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 550px;
+    height: 100%;
+    margin-bottom: 50px;
   }
