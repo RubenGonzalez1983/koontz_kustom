@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/home.scss";
 import { Link } from "react-router-dom";
+import YoutubeEmbed from "../component/YoutubeEmbed";
 
 export const About = () => (
 	<div className="bodyweb">
@@ -24,8 +25,11 @@ export const About = () => (
 					<br /> <br />
 					Sorry if some of my sweat soaks into the wood of your brand new hand-built guitar. <br /> <br />
 					Check out my <Link to="/repairs">repair services</Link> and some of the guitars I&apos;ve built by
-					request.
+					request. <br /> <br />
+					Check out Jon Nuñez rocking out one of my guitars, The Maverick, with his band, Torche. Hint:
+					he&apos;s the guitar player that doesn&apos;t sing.
 				</p>
+				<YoutubeEmbed embedId="ntl-cBtAjm4" />
 				<br />
 				<br />
 				<br />

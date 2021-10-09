@@ -80,6 +80,15 @@
     font-size: 35px;
   }
 
+  .logoh3{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 30px;
+    background-color:rgb(187, 154, 7);
+  }
+
   .icons{
     display: flex;
     flex-direction: row;
@@ -129,6 +138,29 @@
     height: 100%;
     margin-bottom: 50px;
   }
+  .footcolor{
+    position: fixed;
+    bottom: 0;
+    background-color:black;
+    color: white;
+    left: 0;
+    width: 100%;
 
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
 
  
