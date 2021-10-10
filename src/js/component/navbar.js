@@ -41,8 +41,8 @@ export const Navbar = () => {
 						</a>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link hover link " href="#">
-							E-MAIL
+						<a className="nav-link hover link " href="/contact">
+							CONTACT
 						</a>
 					</li>
 					<li className="nav-item">
