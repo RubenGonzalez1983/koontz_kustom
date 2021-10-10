@@ -163,4 +163,75 @@
   position: absolute;
 }
 
- 
+.kustom{
+  display: flex;
+  justify-content: space-between;
+  flex-direction:row;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+
+}
+
+
+.guitars{
+
+      color: black;
+      width:430px; 
+      height: 670px; 
+      margin:auto; 
+       
+      
+    }
+
+.top {
+display: flex; 
+padding: 10px;
+font-family: 'Quattrocento Sans', sans-serif;
+color:black;
+} 
+
+.kustomgtr  {
+  opacity: 1;
+width: 100%; 
+height: auto; 
+display:block;
+transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.guitars:hover .kustomgtr {
+  opacity: 0.3;
+}
+
+.guitars:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  font-family: 'Quattrocento Sans', sans-serif;
+  background-color: rgb(187, 154, 7);
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.textkustom{
+  display: flex;
+  justify-content: center;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 18px;
+}

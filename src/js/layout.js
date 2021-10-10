@@ -12,6 +12,7 @@ import { Navbar } from "./component/navbar";
 import { Repairs } from "./views/repairs";
 import { About } from "./views/about";
 import { Contact } from "./views/contactus";
+import { Kustom } from "./views/kustom";
 
 //create your first component
 const Layout = () => {
@@ -30,6 +31,9 @@ const Layout = () => {
 						</Route>
 						<Route exact path="/repairs">
 							<Repairs />
+						</Route>
+						<Route exact path="/kustom">
+							<Kustom />
 						</Route>
 						<Route exact path="/about">
 							<About />

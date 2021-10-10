@@ -31,7 +31,7 @@ export const Navbar = () => {
 						</a>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link hover link" href="#">
+						<a className="nav-link hover link" href="/kustom">
 							KUSTOM GUITARS
 						</a>
 					</li>
