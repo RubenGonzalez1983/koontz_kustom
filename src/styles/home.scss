@@ -206,28 +206,39 @@ transition: .5s ease;
 .middle {
   margin: 0 auto;
   // width: 275px;
-  transition: .5s ease;
   opacity: 0;
-  transform: translate(-0%, -325px);
+  transform: translate(-0%, -580px);
   text-align: center;
 }
 
 // .guitars:hover .kustomgtr {
 //   opacity: 0.2;
+//   background-color: black;
 
 // }
 
 .guitars:hover .middle {
-  opacity: 1;
+  opacity: .85;
+  background-color: black;
+  height: 580px;
 }
 
 .text {
   font-family: 'Quattrocento Sans', sans-serif;
   background-color: black;
-  opacity: .8;
-  color: whitesmoke;
-  font-size: 16px;
-  padding: 16px 32px;
+  opacity: 2;
+  color:white;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  margin: 0;
 }
 
 .textkustom{
