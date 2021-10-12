@@ -45,11 +45,11 @@ export const Navbar = () => {
 							CONTACT
 						</a>
 					</li>
-					<li className="nav-item">
+					{/* <li className="nav-item">
 						<a className="nav-link hover link" href="tel:305-343-3807">
 							305-343-3807
 						</a>
-					</li>
+					</li> */}
 				</ul>
 			</div>
 		</nav>
