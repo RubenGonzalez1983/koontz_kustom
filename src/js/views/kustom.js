@@ -6,8 +6,8 @@ export const Kustom = () => (
 	<div>
 		<br /> <br /> <br />
 		<p className="textkustom">
-			Here&apos;s a collection of guitars I&apos;ve built by request or just becuase. If you are interested in
-			building a kustom guitar, let&apos;s talk. <br />
+			Check out some of the guitars I&apos;ve built by request or just becuase. If you are interested in building
+			a kustom guitar, let&apos;s talk. <br />
 			Also, make sure to check out my store. I have some for sale.
 		</p>
 		<br />
@@ -39,7 +39,7 @@ export const Kustom = () => (
 						<br />
 						Mahogany Body
 						<br />
-						24.75 Scale Neck
+						24.75&quot; Scale Neck
 						<br />
 						Wilde Bill L500 Humbuckers
 						<br />
@@ -55,11 +55,12 @@ export const Kustom = () => (
 					<div className="text">
 						<h3>The Strummer Electric Parlor Guitar</h3>
 						<br />
-						Mahogany Chambered Hollow Body with Carved Mahogany cap
+						Mahogany Chambered Hollow Body <br />
+						Carved Mahogany cap
 						<br />
-						24 Scale Neck with Slotted Headstock
+						24&quot; Scale Neck with Slotted Headstock
 						<br />
-						CC Blade Pickups by Pete Biltoft Vintage Vibe Pickups
+						CC Blade Pickups by Pete Biltoft <br /> Vintage Vibe Pickups
 						<br />
 						Black and Natural Mahogany
 						<br />
@@ -73,7 +74,7 @@ export const Kustom = () => (
 
 				<div className="middle">
 					<div className="text">
-						<h3>The Maverick Jon Nuñez Model</h3>
+						<h3>The Maverick-Jon Nuñez Model</h3>
 						<br />
 						Mahogany Body <br />
 						Robot Graves Aluminum Neck <br />
@@ -97,7 +98,7 @@ export const Kustom = () => (
 						<br />
 						Mahogany Body
 						<br />
-						32 scale Maple neck
+						32&quot; scale Maple neck
 						<br />
 						Benson Custom Pickups
 						<br />
@@ -119,7 +120,7 @@ export const Kustom = () => (
 						<br />
 						Maple Neck
 						<br />
-						Featured in Rose Gold
+						Rose Gold
 						<br />
 						$1,500
 					</div>
