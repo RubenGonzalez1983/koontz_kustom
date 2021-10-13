@@ -16,13 +16,15 @@ export const Navbar = () => {
 				aria-label="Toggle navigation">
 				<span className="navbar-toggler-icon" />
 			</button>
-			<li className="navbarfont">
-				<a className="link" href="/">
-					<img className="navlogo" src="https://i.ibb.co/ypTrQHH/koontzlogoflatnav.jpg" />
-				</a>
-			</li>
-			<div className={"collapse navbar-collapse navcolor " + showmenu} id="navbarTogglerDemo03">
+
+			<div className={"collapse navbar-collapse  " + showmenu} id="navbarTogglerDemo03">
 				<ul className="navbar-nav mr-auto mt-2 mt-lg-0 navright nav">
+					<li className="navbarfont">
+						<a className="link" href="/">
+							<img className="navlogo" src="https://i.ibb.co/ypTrQHH/koontzlogoflatnav.jpg" />
+						</a>
+					</li>
+
 					<li className="navbarfont">
 						<a className="nav-link hover link" href="/">
 							HOME
