@@ -2,20 +2,20 @@ import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import "../../styles/home.scss";
 
-export const ContactUs = () => {
-	const form = useRef();
-
-	const sendEmail = e => {
+export default function ContactUs (){
+	function sendEmail(e){
 		e.preventDefault();
+	
 
 		emailjs.sendForm("service_9gyr8mr", "template_fhrii5l", form.current, "user_xEbved8R2ctCBnhDEdffV").then(
-			result => {
+			(result) => {
 				console.log(result.text);
 			},
 			error => {
 				console.log(error.text);
 			}
-		);
+		);}
+		e.target.reset();
 	};
 
 	return (
