@@ -23,9 +23,9 @@ export const ContactUs = () => {
 			<header className="center">Get in touch!</header>
 
 			<form id="form" className="topBefore">
-				<input id="name" type="text" placeholder="NAME" />
-				<input id="email" type="text" placeholder="E-MAIL" />
-				<textarea id="message" type="text" placeholder="MESSAGE" />
+				<input type="text" placeholder="NAME" name="name" />
+				<input type="email" placeholder="E-MAIL" name="email" />
+				<textarea type="text" placeholder="MESSAGE" name="message" />
 				<input id="submit" type="submit" value="GO!" />
 			</form>
 			<header className="center">
